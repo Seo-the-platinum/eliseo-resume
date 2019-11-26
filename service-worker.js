@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eliseo-resume/precache-manifest.673964f567daa1ebf4fd3cba2b88b59b.js"
+  "/eliseo-resume/precache-manifest.90981147beaae413cf298d39d961ca78.js"
 );
 
 self.addEventListener('message', (event) => {
