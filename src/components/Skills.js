@@ -62,7 +62,6 @@ class Skills extends Component {
             <FaReact size={32} color='61DBFB'/>React Native
           </Skill>
           <Skill>
-            <ResizedImg src={reduxlogo} alt='redux logo'/>
             Redux
           </Skill>
           <Skill>
