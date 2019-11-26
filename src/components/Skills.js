@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import { FaHtml5, FaCss3Alt, FaReact, FaGithub  } from 'react-icons/fa'
+import { IoLogoJavascript } from 'react-icons/io'
+
 
 const Container= styled.div`
   background: silver;
@@ -8,21 +11,30 @@ const Container= styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 15px;
-  width: 80%;
+  width: 95%;
 `
 const Header= styled.div`
+  background: rgb(0, 196, 132);
   display: flex;
   justify-content: center;
-  width: 100%;
   border-bottom: solid 1px black;
   font-weight: bold;
   font-size: 24px;
   font-family: Century Gothic;
+  padding-bottom: 5px;
+  width: 100%;
 `
-const List= styled.ul`
+const SkillsList= styled.div`
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+`
+const Skill= styled.div`
+  display: flex;
+  align-items: center;
+`
+const ResizedImg= styled.img`
+  max-width: 65%;
+  max-height: 65%;
 `
 class Skills extends Component {
   render() {
@@ -31,32 +43,32 @@ class Skills extends Component {
         <Header>
           Skills
         </Header>
-          <List>
-            <li>
+        <SkillsList>
+          <Skill>
+            <FaHtml5 size={32} color='E44D26'/>
               Html
-            </li>
-            <li>
-              Css
-            </li>
-            <li>
-              Javascript
-            </li>
-            <li>
-              React
-            </li>
-            <li>
-              React Native
-            </li>
-            <li>
-              Redux
-            </li>
-            <li>
-              Jsx
-            </li>
-            <li>
-              Git
-            </li>
-          </List>
+          </Skill>
+          <Skill>
+            <FaCss3Alt size={32} color='#264de4'/> Css
+          </Skill>
+          <Skill>
+            <IoLogoJavascript size={32}/> Javascript
+          </Skill>
+          <Skill>
+            <FaReact size={32} color='61DBFB'/>React
+          </Skill>
+          <Skill>
+            <FaReact size={32} color='61DBFB'/>React Native
+          </Skill>
+          <Skill>
+            <ResizedImg src='/reduxlogo.png' alt='redux logo'/>
+            Redux
+          </Skill>
+          <Skill>
+            <FaGithub size={32}/>
+            Git
+          </Skill>
+        </SkillsList>
       </Container>
     )
   }

@@ -4,6 +4,8 @@ import Header from './Header'
 import Contact from './Contact'
 import Skills from './Skills'
 import Projects from './Projects'
+import Education from './Education'
+import WorkHistory from './WorkHistory'
 
 const Container= styled.div`
   display: flex;
@@ -21,7 +23,11 @@ const Body= styled.div`
   width: 100%;
   height: 100%;
 `
-
+const HalfBody= styled.div`
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+`
   class Resume extends Component {
     render() {
       return (
@@ -31,6 +37,10 @@ const Body= styled.div`
           <Body>
             <Skills />
             <Projects />
+            <HalfBody>
+            <Education />
+            <WorkHistory/>
+            </HalfBody>
           </Body>
         </Container>
       )
