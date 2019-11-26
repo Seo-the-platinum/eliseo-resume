@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Container= styled.div`
   background: silver;
   border: solid 1px black;
+  box-shadow: 10px 10px 20px gray;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
@@ -12,7 +13,7 @@ const Container= styled.div`
 `
 const Header= styled.h2`
   background: rgb(0, 196, 132);
-  border: solid 1px black;
+  border-bottom: solid 1px black;
   display: flex;
   font-family: Century Gothic;
   justify-content: center;

@@ -13,7 +13,7 @@ const Container= styled.div`
 `
 const Header= styled.h2`
   background: rgb(0, 196, 132);
-  border: solid 1px black;
+  border-bottom: solid 1px black;
   display: flex;
   justify-content: center;
   margin-top: 0;
@@ -31,11 +31,6 @@ const EduItem= styled.div`
   margin-right: 10px;
   margin-left: 10px;
 `
-const Degree= styled.div`
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  `
 class Education extends Component {
   render() {
     return (
