@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/eliseo-resume/static/css/main.b100e6da.chunk.css",
-    "main.js": "/eliseo-resume/static/js/main.d0c50ba1.chunk.js",
-    "main.js.map": "/eliseo-resume/static/js/main.d0c50ba1.chunk.js.map",
+    "main.js": "/eliseo-resume/static/js/main.e68e66da.chunk.js",
+    "main.js.map": "/eliseo-resume/static/js/main.e68e66da.chunk.js.map",
     "runtime-main.js": "/eliseo-resume/static/js/runtime-main.748f53f7.js",
     "runtime-main.js.map": "/eliseo-resume/static/js/runtime-main.748f53f7.js.map",
-    "static/js/2.6e28f627.chunk.js": "/eliseo-resume/static/js/2.6e28f627.chunk.js",
-    "static/js/2.6e28f627.chunk.js.map": "/eliseo-resume/static/js/2.6e28f627.chunk.js.map",
+    "static/js/2.a9823edd.chunk.js": "/eliseo-resume/static/js/2.a9823edd.chunk.js",
+    "static/js/2.a9823edd.chunk.js.map": "/eliseo-resume/static/js/2.a9823edd.chunk.js.map",
     "index.html": "/eliseo-resume/index.html",
-    "precache-manifest.26f299902e4710e50bfe6cc514ffb588.js": "/eliseo-resume/precache-manifest.26f299902e4710e50bfe6cc514ffb588.js",
+    "precache-manifest.673964f567daa1ebf4fd3cba2b88b59b.js": "/eliseo-resume/precache-manifest.673964f567daa1ebf4fd3cba2b88b59b.js",
     "service-worker.js": "/eliseo-resume/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/eliseo-resume/static/css/main.b100e6da.chunk.css.map",
     "static/media/logo.svg": "/eliseo-resume/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.748f53f7.js",
-    "static/js/2.6e28f627.chunk.js",
+    "static/js/2.a9823edd.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.d0c50ba1.chunk.js"
+    "static/js/main.e68e66da.chunk.js"
   ]
 }
