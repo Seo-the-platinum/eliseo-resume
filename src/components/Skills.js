@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { FaHtml5, FaCss3Alt, FaReact, FaGithub  } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
+import reduxlogo from './reduxlogo.png'
 
 
 const Container= styled.div`
@@ -61,7 +62,7 @@ class Skills extends Component {
             <FaReact size={32} color='61DBFB'/>React Native
           </Skill>
           <Skill>
-            <ResizedImg src='/reduxlogo.png' alt='redux logo'/>
+            <ResizedImg src={reduxlogo} alt='redux logo'/>
             Redux
           </Skill>
           <Skill>
