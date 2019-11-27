@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/eliseo-resume/static/css/main.b100e6da.chunk.css",
-    "main.js": "/eliseo-resume/static/js/main.ce6630ad.chunk.js",
-    "main.js.map": "/eliseo-resume/static/js/main.ce6630ad.chunk.js.map",
+    "main.js": "/eliseo-resume/static/js/main.3ecfa4ff.chunk.js",
+    "main.js.map": "/eliseo-resume/static/js/main.3ecfa4ff.chunk.js.map",
     "runtime-main.js": "/eliseo-resume/static/js/runtime-main.748f53f7.js",
     "runtime-main.js.map": "/eliseo-resume/static/js/runtime-main.748f53f7.js.map",
-    "static/js/2.6e28f627.chunk.js": "/eliseo-resume/static/js/2.6e28f627.chunk.js",
-    "static/js/2.6e28f627.chunk.js.map": "/eliseo-resume/static/js/2.6e28f627.chunk.js.map",
+    "static/js/2.da169912.chunk.js": "/eliseo-resume/static/js/2.da169912.chunk.js",
+    "static/js/2.da169912.chunk.js.map": "/eliseo-resume/static/js/2.da169912.chunk.js.map",
     "index.html": "/eliseo-resume/index.html",
-    "precache-manifest.90981147beaae413cf298d39d961ca78.js": "/eliseo-resume/precache-manifest.90981147beaae413cf298d39d961ca78.js",
+    "precache-manifest.1118e2d2b2822e948015ffe93c207cfb.js": "/eliseo-resume/precache-manifest.1118e2d2b2822e948015ffe93c207cfb.js",
     "service-worker.js": "/eliseo-resume/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/eliseo-resume/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/eliseo-resume/static/media/logo.25bf045c.svg"
+    "static/css/main.b100e6da.chunk.css.map": "/eliseo-resume/static/css/main.b100e6da.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.748f53f7.js",
-    "static/js/2.6e28f627.chunk.js",
+    "static/js/2.da169912.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.ce6630ad.chunk.js"
+    "static/js/main.3ecfa4ff.chunk.js"
   ]
 }
