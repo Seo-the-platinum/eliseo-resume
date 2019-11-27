@@ -14,6 +14,7 @@ const Container= styled.div`
   justify-content: flex-end;
   width: 100%;
   margin: 5px;
+
 `
 const Body= styled.div`
   align-items: center;
@@ -22,6 +23,7 @@ const Body= styled.div`
   justify-content: space-between;
   width: 100%;
   height: 100%;
+  
 `
 const HalfBody= styled.div`
   display: flex;

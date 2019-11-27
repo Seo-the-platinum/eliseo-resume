@@ -13,6 +13,11 @@ const Container= styled.div`
   flex-direction: column;
   margin-top: 15px;
   width: 95%;
+  @media (min-width: 320px) and (max-width: 380px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+  }
 `
 const Header= styled.div`
   background: rgb(0, 196, 132);
@@ -28,6 +33,10 @@ const Header= styled.div`
 const SkillsList= styled.div`
   display: flex;
   justify-content: space-around;
+  @media (min-width: 320px) and (max-width: 381px) {
+    flex-wrap: wrap;
+    height: 70%;
+  }
 `
 const Skill= styled.div`
   display: flex;

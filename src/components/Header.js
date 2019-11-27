@@ -20,6 +20,10 @@ const SilverSlant= styled.div`
   -webkit-transform: skewX(-30deg);
   width: .5%;
   box-sizing: border-box;
+  @media (min-width: 320px) {
+    left: 5%;
+    width: 1%;
+  }
 `
 
 const Slant= styled.div`
@@ -33,6 +37,10 @@ const Slant= styled.div`
   background: rgb(0, 196, 132);
   height: 100%;
   box-sizing: border-box;
+  @media (min-width: 320px) {
+    width: 10.5%;
+    left: 5%;
+  }
 `
 const RightBanner= styled.div`
   background: rgb(0, 196, 132);
@@ -48,6 +56,9 @@ const RightBanner= styled.div`
   font-size: 24px;
   width: 30%;
   height: 100%;
+  @media ( min-width: 320px) {
+    width: 50%;
+  }
 `
 
 class Header extends Component {
