@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ecaf5500308ec308904cb503a8f556f",
+    "revision": "565dae1502005c2dbcbc0a33550d8c47",
     "url": "/eliseo-resume/index.html"
   },
   {
-    "revision": "569b38735c779707858f",
+    "revision": "b3efa9c2b155ca4003c3",
     "url": "/eliseo-resume/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eliseo-resume/static/js/2.da169912.chunk.js"
   },
   {
-    "revision": "569b38735c779707858f",
-    "url": "/eliseo-resume/static/js/main.81f0d25b.chunk.js"
+    "revision": "b3efa9c2b155ca4003c3",
+    "url": "/eliseo-resume/static/js/main.243d66de.chunk.js"
   },
   {
     "revision": "ec225e74eb124570e783",
