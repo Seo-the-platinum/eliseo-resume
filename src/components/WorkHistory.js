@@ -10,6 +10,12 @@ const Container= styled.div`
   margin-top: 10px;
   height: 50%;
   width: 45%;
+  @media (min-width: 320px) and (max-width: 380px) {
+    width: 100%;
+  };
+  @media (min-width: 381px) and (max-width: 600px) {
+    width: 100%;
+  };
 `
 const Header= styled.h2`
   background: rgb(0, 196, 132);
@@ -25,16 +31,25 @@ const WorkList= styled.div`
   flex-direction: column;
 `
 const WorkExp= styled.div`
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
   align-items: center;
-
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  @media (min-width: 320px) and (max-width: 380px) {
+    width: 100%;
+  };
+  @media (min-width: 381px) and (max-width: 600px) {
+    width: 100%;
+  };
 `
 const WorkTitle= styled.div`
+  align-items: center;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
+  @media (min-width: 381px) and (max-width: 600px) {
+    align-items: center;
+  }
 `
 class WorkHistory extends Component {
   render() {

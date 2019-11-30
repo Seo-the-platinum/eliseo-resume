@@ -23,12 +23,21 @@ const Body= styled.div`
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  
+
 `
 const HalfBody= styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 95%;
+  @media (min-width: 320px) and (max-width: 380px) {
+    align-items: center;
+    flex-direction: column;
+  };
+  @media (min-width: 381px) and (max-width: 600px) {
+    align-items: center;
+    flex-direction: column;
+  };
+
 `
   class Resume extends Component {
     render() {

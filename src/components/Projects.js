@@ -25,6 +25,14 @@ const Header= styled.div`
 const ProjectsContainer= styled.div`
   display: flex;
   justify-content: space-around;
+  @media (min-width: 320px) and (max-width: 380px) {
+    align-items: center;
+    flex-direction: column;
+  };
+
+  @media (min-width: 381px) and (max-width: 600px) {
+    align-items: center;
+    flex-direction: column;  }
 `
 
 const LinkContainer= styled.div`
@@ -32,6 +40,12 @@ const LinkContainer= styled.div`
   flex-direction: column;
   align-items: center;
   width: 30%;
+  @media (min-width: 320px) and (max-width: 380px) {
+    width: 85%;
+  };
+  @media (min-width: 381px) and (max-width: 600px) {
+    width: 85%;
+  };
 `
 
 const Link= styled.a`

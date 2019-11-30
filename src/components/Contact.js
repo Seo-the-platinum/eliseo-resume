@@ -18,8 +18,9 @@ const Container= styled.div`
     height: 15%;
   }
   @media (min-width: 381px) and (max-width: 600px) {
+    align-items: flex-start;
     flex-direction: column;
-
+    justify-content: flex-end;
   }
 `
 const Text= styled.p`
@@ -27,10 +28,12 @@ const Text= styled.p`
   @media (min-width: 320px) and (max-width: 380px) {
     font-size: 16px;
     padding: 5px;
-  }
+  };
   @media (min-width: 381px) and (max-width: 600px) {
-
+    font-size: 16px;
+    padding: 5px;
   }
+
 `
 const Link= styled.a`
   color: rgb(0, 196, 132);

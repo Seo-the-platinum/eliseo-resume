@@ -10,6 +10,14 @@ const Container= styled.div`
   flex-direction: column;
   margin-top: 10px;
   width: 45%;
+  @media (min-width: 320px) and (max-width: 380px) {
+    width: 100%;
+  };
+  @media (min-width: 381px) and (max-width: 600px) {
+    width: 100%;
+  };
+  @media (min-width: 601px) {
+  }
 `
 const Header= styled.h2`
   background: rgb(0, 196, 132);

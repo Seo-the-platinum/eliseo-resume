@@ -17,7 +17,8 @@ const Container= styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     height: 150px;
-  }
+  };
+
 `
 const Header= styled.div`
   background: rgb(0, 196, 132);
@@ -33,9 +34,15 @@ const Header= styled.div`
 const SkillsList= styled.div`
   display: flex;
   justify-content: space-around;
-  @media (min-width: 320px) and (max-width: 381px) {
+  @media (min-width: 320px) and (max-width: 380px) {
     flex-wrap: wrap;
     height: 70%;
+    padding: 5px;
+  };
+  @media (min-width: 381px) and (max-width: 600px) {
+    flex-wrap: wrap;
+    height: 70%;
+    padding: 10px;
   }
 `
 const Skill= styled.div`
