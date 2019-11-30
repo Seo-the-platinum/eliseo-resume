@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const Container= styled.div`
-  background: silver;
+  background: rgb(227, 230, 228, .9);
   border: solid 1px black;
   box-shadow: 5px 5px 20px;
   display: flex;
@@ -14,6 +14,7 @@ const Container= styled.div`
 const Header= styled.div`
   background: rgb(0, 196, 132);
   display: flex;
+  font-family: 'PT Sans Narrow', sans-serif;
   justify-content: center;
   width: 100%;
   border-bottom: solid 1px black;
@@ -38,8 +39,10 @@ const ProjectsContainer= styled.div`
 const LinkContainer= styled.div`
   display: flex;
   flex-direction: column;
+  font-family: 'PT Sans Narrow', sans-serif;
   align-items: center;
   width: 30%;
+  padding-top: 10px;
   @media (min-width: 320px) and (max-width: 380px) {
     width: 85%;
   };
@@ -50,6 +53,7 @@ const LinkContainer= styled.div`
 
 const Link= styled.a`
   color: rgb(0, 196, 132);
+  font-family: 'PT Sans Narrow', sans-serif;
 `
 
 class Projects extends Component {

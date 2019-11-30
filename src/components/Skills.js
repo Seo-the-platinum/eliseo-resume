@@ -2,11 +2,10 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { FaHtml5, FaCss3Alt, FaReact, FaGithub  } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
-import reduxlogo from './reduxlogo.png'
 
 
 const Container= styled.div`
-  background: silver;
+  background: rgb(227, 230, 228, .9);
   border: solid 1px black
   box-shadow: 5px 5px 10px grey;
   display: flex;
@@ -27,13 +26,14 @@ const Header= styled.div`
   border-bottom: solid 1px black;
   font-weight: bold;
   font-size: 24px;
-  font-family: Century Gothic;
+  font-family: 'PT Sans Narrow', sans-serif;
   padding-bottom: 5px;
   width: 100%;
 `
 const SkillsList= styled.div`
   display: flex;
   justify-content: space-around;
+  padding: 5px;
   @media (min-width: 320px) and (max-width: 380px) {
     flex-wrap: wrap;
     height: 70%;

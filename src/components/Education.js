@@ -3,13 +3,13 @@ import styled from 'styled-components'
 
 const Container= styled.div`
   align-items: center;
-  background: silver;
+  background: rgb(227, 230, 228, .9);
   border: solid 1px black;
   box-shadow: 10px 10px 20px gray;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  width: 45%;
+  width: 47%;
   @media (min-width: 320px) and (max-width: 380px) {
     width: 100%;
   };
@@ -23,21 +23,23 @@ const Header= styled.h2`
   background: rgb(0, 196, 132);
   border-bottom: solid 1px black;
   display: flex;
+  font-family: 'PT Sans Narrow', sans-serif;
   justify-content: center;
   margin-top: 0;
   width: 100%;
 `
 const EduList= styled.div`
   display: flex;
+  font-family: 'PT Sans Narrow', sans-serif;
   flex-direction: column;
   width: 100%;
 `
 const EduItem= styled.div`
+  align-items: center;
   display: flex;
+  font-family: 'PT Sans Narrow', sans-serif;
   flex-direction: column;
-  justify-content: space-between;
-  margin-right: 10px;
-  margin-left: 10px;
+
 `
 class Education extends Component {
   render() {
@@ -64,7 +66,7 @@ class Education extends Component {
               January 2018- April 2019
             </p>
             <p>
-              Front-End Web Developer NanoDegree
+              Front-End Developer NanoDegree
             </p>
           </EduItem>
           <EduItem>

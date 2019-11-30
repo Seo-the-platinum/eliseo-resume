@@ -8,7 +8,7 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   body, html {
     height: 100;
-    background: rgb(227, 230, 228, .9);
+    background: silver;
     overflow-x: hidden;
 
   }

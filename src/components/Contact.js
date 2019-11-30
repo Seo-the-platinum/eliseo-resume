@@ -6,7 +6,7 @@ import { MdEmail, MdPhoneAndroid } from 'react-icons/md'
 const Container= styled.div`
   align-items: center;
   border: solid 1px black;
-  background: silver;
+  background: rgb(227, 230, 228, .9);
   display: flex;
   flex-wrap: wrap;
   height: 10%;
@@ -25,6 +25,7 @@ const Container= styled.div`
 `
 const Text= styled.p`
   font-size: 18px;
+  font-family: 'PT Sans Narrow', sans-serif;
   @media (min-width: 320px) and (max-width: 380px) {
     font-size: 16px;
     padding: 5px;
@@ -32,11 +33,11 @@ const Text= styled.p`
   @media (min-width: 381px) and (max-width: 600px) {
     font-size: 16px;
     padding: 5px;
-  }
-
+  };
 `
 const Link= styled.a`
   color: rgb(0, 196, 132);
+  font-family: 'PT Sans Narrow', sans-serif;
 `
 class Contact extends Component {
   render() {

@@ -13,7 +13,7 @@ const Container= styled.div`
 
 const SilverSlant= styled.div`
   border-right: solid black 1px;
-  background: silver;
+  background: rgb(227, 230, 228, .9);
   height: 100%;
   position: relative;
   left: 2.5%;
@@ -52,7 +52,7 @@ const RightBanner= styled.div`
   border-right: solid 1px white;
   border-bottom: solid 1px white;
   color: white;
-  font-family: Century Gothic;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 24px;
   width: 30%;
   height: 100%;
