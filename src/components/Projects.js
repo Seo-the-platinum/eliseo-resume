@@ -64,6 +64,7 @@ class Projects extends Component {
         <ProjectsContainer>
         <LinkContainer>
           <Link href='https://seo-the-platinum.github.io/react-forum/'> React Forum </Link>
+          <Link href='https://github.com/Seo-the-platinum/react-forum'> React Forum Repo</Link>
           <p>
             React Forum utilizes React, Redux, and Styled Components to allow a user to add posts to existing
             categories and comments to existing posts. Each post and comment has a score that can be increased
@@ -72,6 +73,7 @@ class Projects extends Component {
         </LinkContainer>
         <LinkContainer>
           <Link href='https://seo-the-platinum.github.io/restaurant-review/'> Restaurant Reviews </Link>
+          <Link href='https://github.com/Seo-the-platinum/restaurant-review'> Restaurant Reviews Repo </Link>
           <p>Restaurant Reviews utilizes Javascript, Html, Css, leaflet, and a service worker. Restaurants are
             retrieved and filtered based on the users selection. Each restaurant contains a picture, multiple reviews,
             and other restaurant details.</p>
